@@ -8,5 +8,6 @@
 
 library(testthat)
 library(count)
+library(dplyr)
 
 test_check("count")
