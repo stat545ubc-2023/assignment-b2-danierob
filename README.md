@@ -17,7 +17,7 @@ You can install the development version of count from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/")
+devtools::install_github("stat545ubc-2023/count", "ref = 0.1.0")
 ```
 
 #### Functions
