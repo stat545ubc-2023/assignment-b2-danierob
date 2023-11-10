@@ -1,11 +1,10 @@
-Package: b2.package
+Package: package.b2
 Type: Package
-Title: What the Package Does (Title Case)
+Title: This package counts the missing values in a column by group and displays them as a count.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Daniel Robinson
+Maintainer: The package maintainer <daniero@ubc.ca.mail>
+Description: This package counts the missing values in a column by group and displays them as a count.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

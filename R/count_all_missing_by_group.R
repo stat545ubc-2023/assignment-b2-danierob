@@ -26,6 +26,10 @@
 #' each level of `group` for all columns in
 #' `data` except `group`.
 #' @export
+#' @examples
+#' count_all_missing_by_group(airquality, Month)
+#' airquality |> count_all_missing_by_group(Month) 
+#' 
 count_all_missing_by_group <- function(data, group_col, .groups = "drop") {
 
   if(!is.null(.groups)) {
