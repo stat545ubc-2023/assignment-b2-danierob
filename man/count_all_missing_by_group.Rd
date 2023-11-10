@@ -38,3 +38,8 @@ This function is
 a wrapper around the `group_by()` and
 `summarize()` functions in the `dplyr` package.
 }
+\examples{
+count_all_missing_by_group(airquality, Month)
+airquality |> count_all_missing_by_group(Month) 
+count_all_missing_by_group(airquality, Month, .groups = "keep")
+}
